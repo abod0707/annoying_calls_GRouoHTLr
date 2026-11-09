@@ -1,4 +1,25 @@
 import os
+import time
+import random
+import hashlib
+import requests
+
+os.system('clear')
+
+print("""
+██████╗ ██████╗  ██████╗ ██╗   ██╗██████╗ ██╗  ██╗████████╗██╗
+██╔════╝ ██╔══██╗██╔═══██╗██║   ██║██╔══██╗██║  ██║╚══██╔══╝██║
+██║  ███╗██████╔╝██║   ██║██║   ██║██████╔╝███████║   ██║   ██║
+██║   ██║██╔══██╗██║   ██║██║   ██║██╔═══╝ ██╔══██║   ██║   ██║
+╚██████╔╝██║  ██║╚██████╔╝╚██████╔╝██║     ██║  ██║   ██║   ███████╗
+ ╚═════╝ ╚═╝  ╚═╝ ╚═════╝  ╚═════╝ ╚═╝     ╚═╝  ╚═╝   ╚═╝   ╚══════╝
+
+             GRoupHTLr
+          TERMUX EDITION
+""")
+
+print("[+] GRoupHTLr Started")
+import os
 try:
 	import requests
 	import hashlib, random
